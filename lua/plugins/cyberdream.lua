@@ -4,6 +4,6 @@ return {
 	priority = 1000,
 	opts = {
 		vim.api.nvim_set_keymap("n", "<leader>tt", ":CyberdreamToggleMode<CR>", { noremap = true, silent = true }),
-		transparent = false,
+		transparent = true,
 	},
 }
