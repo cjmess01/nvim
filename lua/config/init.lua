@@ -57,3 +57,5 @@ vim.api.nvim_create_autocmd("BufReadPost", {
   end,
 })
 
+vim.cmd([[autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })]])
+

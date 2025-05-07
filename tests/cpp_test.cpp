@@ -22,7 +22,9 @@ public:
 
   void withdraw(double amount) {
     if (amount > 0 && amount <= balance) {
+
       balance -= amount;
+
       std::cout << "Withdrew $" << amount << ". Remaining balance: $" << balance
                 << "\n";
     } else {
