@@ -59,3 +59,9 @@ vim.api.nvim_create_autocmd("BufReadPost", {
 
 vim.cmd([[autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })]])
 
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.html",
+  callback = function()
+    vim.bo.filetype = "html"
+  end,
+})
