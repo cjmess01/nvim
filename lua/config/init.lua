@@ -65,5 +65,10 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd("DiagnosticChanged", {
+  callback = function()
+    vim.diagnostic.setqflist({ open = false })  -- remove open=true if you don’t want it to pop up
+  end,
+})
 
 

@@ -4,11 +4,11 @@ local ls = require("luasnip")
 local languages = { "python", "html", "lua", "javascript" }
 
 for _, lang in ipairs(languages) do
-  print(lang)
+  -- print(lang)
   local ok, snippets = pcall(require, "snippets." .. lang)
   if ok and snippets then
     ls.add_snippets(lang, snippets)
-    print("HEY")
+    -- print("HEY")
   end
 end
 

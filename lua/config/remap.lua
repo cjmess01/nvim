@@ -51,3 +51,5 @@ vim.keymap.set("n", "<C-Right>", ":vertical resize -2<CR>", { silent = true })
 
 -- Switch between windows
 vim.keymap.set("n", "<leader>t", "<C-w>w", { silent = true })
+
+vim.keymap.set("n", "<leader>e", "<cmd>copen<CR>", { desc = "Open quickfix list" })

@@ -34,7 +34,7 @@ return {
         on_attach = on_attach,
         capabilities = capabilities,
       })
-      lsp.start(server)
+      -- lsp.start(server)
     end
   end,
 }

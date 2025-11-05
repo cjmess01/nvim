@@ -5,16 +5,16 @@ from other import other_f
 other_f("caleb")
 other_f("Hello")
 
-def my_func(name : str):
-    print(name)
+def my_fun(name : str):
+    print("hey")
 
     
 
 
 
-my_func("levi")
-my_func("caleb")
-my_func("nathan")
-my_func("nick")
+my_fun("levi")
+my_fun("caleb")
+my_fun("nathan")
+my_fun("nick")
 
 
