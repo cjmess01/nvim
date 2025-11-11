@@ -7,10 +7,7 @@ other_f("Hello")
 
 def my_fun(name : str):
     print("hey")
-
-    
-
-
+    print("Hey now")
 
 my_fun("levi")
 my_fun("caleb")

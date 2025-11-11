@@ -71,4 +71,6 @@ vim.api.nvim_create_autocmd("DiagnosticChanged", {
   end,
 })
 
+-- Colorscheme command
+vim.cmd("colorscheme habamax")
 
